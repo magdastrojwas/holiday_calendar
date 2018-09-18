@@ -8,7 +8,25 @@ import React, {Component} from 'react';
         }
     }
     render() {
-        return <div>kalendarz</div>
+        return (
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>plan urlopów</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>imię</td>
+                            <td>nazwisko</td>
+                            <td>od</td>
+                            <td>do</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
     }
 }
 
